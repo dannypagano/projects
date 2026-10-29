@@ -1,0 +1,42 @@
+
+- title: Utility Knife
+  number: "009"
+  image: /assets/images/knife.jpg
+  placeholder: /assets/images/placeholders/knife.jpg
+  description: "Lofty: A series of 3D printed utility knives, exploring mechanical design, materials, and form. Honest: I needed a utility knife and thought it would be quick design and print one. I made a bunch that didn't work, in different shapes, multiple filament colors and materials until I thought it was cool enough."
+
+- title: Wifi Sniffer
+  number: "018"
+  image: /assets/images/wifi.jpg
+  placeholder: /assets/images/placeholders/wifi.jpg
+  description: Making the best out of a setback. — I tried to get this e-ink display working with the r-node firmware and struggled. Instead I had Claude write a little script to display information I wanted about nearby wifi networks, incorporating my ad-hoc custom UI design.
+
+- title: 3D Printed Lamps
+  number: "006"
+  image: /assets/images/lamp.jpg
+  placeholder: /assets/images/placeholders/lamp.jpg
+  description: Playing with color, light and form; 3D printed lamp shades and diffusers.
+
+- title: Airplane Parts Chair
+  number: "014"
+  image: /assets/images/chair.jpg
+  placeholder: /assets/images/placeholders/chair.jpg
+  description: Trying to make a chair out of salvaged/found airplane parts.
+
+- title: Supercapacitor Racing League
+  number: "000"
+  image: /assets/images/srl.png
+  placeholder: /assets/images/placeholders/srl.jpg
+  description: Fictional branding explorations inspired by motorsport, livery, and decals.
+
+- title: Office Shelf
+  number: "023"
+  image: /assets/images/shelf10.jpg
+  placeholder: /assets/images/placeholders/shelf10.jpg
+  description: "Modifying an IKEA tension shelf for my office with custom-sized plywood shelves, lots of paint stripper, sanding and electrolytic etching. Pictured: 3D printed sanding tools."
+
+- title: Mesh Radio
+  number: "018"
+  image: /assets/images/mesh.jpg
+  placeholder: /assets/images/placeholders/mesh.jpg
+  description: Playing with mesh radios, LoRA, and decentralized communications platforms like Meshtastic and Reticulum. With a lot of code from Claude, I got the Reticulum firmware running on the Seeed Studio Wio Tracker L1. It was quite a process.

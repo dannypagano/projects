@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div class="grid grid-cols-1 h-screen md:grid-cols-4">
+     <div class="grid grid-cols-1 col-span-3 h-full p-4 md:overflow-y-scroll md:p-8">
+        <div class="flex md:mt-36">
+            <div class="flex flex-col flex-1 mx-auto max-w-[678px]">
+                <div class="flex flex-1 flex-col mb-8">
+                     <h1 class="text-3xl mb-8">
+                        [{{ page.number }}] - {{ page.title }}
+                    </h1>
+                    <h2 class="text-xl">
+                        {{ page.description }}
+                    </h2>
+                </div>
+                <div class="flex flex-col mb-8">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 col-span-1">
+        <div class="relative overflow-hidden bg-black h-[250px] md:h-screen">
+            <div class="project-slide absolute inset-0">
+                <div class="absolute inset-8 flex flex-col z-10 justify-between">
+                    <div class="relative text-neutral-100">
+                        {% include nav.html %}
+                    </div>
+                    <div class="relative text-neutral-100 ">
+                        {% include footer.html %}
+                    </div>
+                </div>
+          
+                <img src="{{ page.image | relative_url }}"
+                    alt=""
+                    fetchpriority="{% if forloop.first %}high{% else %}low{% endif %}"
+                    class="absolute inset-0 size-full object-cover opacity-50 transition-opacity duration-300 motion-reduce:transition-none">
+                <div class="absolute z-10">
+                    
+                </div>
+            </div>
+        </div>
+   </div>
+</div>
+
+
